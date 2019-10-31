@@ -25,7 +25,7 @@ class Prayers(object):
         prayer = intent_message.slots.prayer.first().value
         myaction = intent_message.slots.myaction.first().value
         print(prayer)
-        print(my action)
+        print(myaction)
         grace = 'Bless us, oh Lord, and these, thy gifts, which we are about to receive, From thy bounty, through Christ, our Lord. Amen. May the souls, of the faithly departed, through the mercy of God, rest in peace. AMEN.'
         lords_prayer = 'Our Father, who art in heaven, hallowed be thy name. Thy kingdom come, thy will be done, on earth, as it is in heaven. Give us this day, our daily bread, and forgive us our trespasses, as weforgive those who trespass against us. and lead us not into temptation, but deliver us from evil. Amen.'
         hail_mary = 'Hail Mary. Full of Grace, The Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners now, and at the hour of our death. Amen.'
